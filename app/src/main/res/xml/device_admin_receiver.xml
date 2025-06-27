@@ -1,6 +1,10 @@
 <device-admin xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-policies>
+        <limit-password />
+        <watch-login />
+        <reset-password />
         <force-lock />
         <wipe-data />
+        <!-- 필요에 따라 권한 추가 -->
     </uses-policies>
 </device-admin>
